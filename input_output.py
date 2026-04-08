@@ -47,3 +47,8 @@ print(sum)
 
 n = int(input("Enter n: "))
 print("5 4 3 2 1",end=" Blast off!")
+
+x,y = input("Enter two numbers: ").split()
+a = int(x)
+b = int(y)
+print("Addition",a+b,"subtraction",a-b,"multiplication",a*b)

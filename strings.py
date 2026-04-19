@@ -33,3 +33,21 @@ o = s.count("o")
 u = s.count("u")
 print("Number of vowels= ",sum([a,e,i,o,u]))
 print(f"Number of vowels is: {a+e+i+o+u}")
+
+#grade calculator
+m = int(input("Enter marks: "))
+s = int(input("Enter marks: "))
+e = int(input("Enter marks: "))
+total_marks = m + s + e
+average = total_marks/3
+
+percentage = (total_marks/300)*100
+grade = ""
+if percentage >= 90:
+    grade = "A" 
+elif percentage >= 80 and percentage <= 90:
+    grade = "B"
+elif percentage >= 70 and percentage <= 80:
+    grade = "C"
+else:
+    grade = "D"
